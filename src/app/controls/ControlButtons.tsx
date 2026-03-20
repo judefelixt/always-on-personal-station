@@ -52,6 +52,17 @@ const ControlButtons: React.FC<ControlButtonsProps> = (props) => {
 
             <Button
                 style={{
+                    backgroundColor: getButtonColor(settingsOpened),
+                    padding: theme.spacing("3"),
+                    marginBottom: theme.spacing(1.5),
+                }}
+                onClick={() => openSettings()}
+            >
+                <SettingsIcon fontSize="large" />
+            </Button>
+
+            <Button
+                style={{
                     backgroundColor: getButtonColor(false),  // Always grey
                     padding: theme.spacing(1.5),
                     marginBottom: theme.spacing(1.5),
