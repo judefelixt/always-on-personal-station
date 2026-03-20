@@ -85,6 +85,17 @@ const ControlButtons: React.FC<ControlButtonsProps> = (props) => {
                 <LockIcon fontSize="medium" />
             </Button>
 
+
+            <Button
+                style={{
+                    backgroundColor: getButtonColor(lockScroll),
+                    padding: theme.spacing(2),
+                }}
+                onClick={() => { console.log("Lock Scroll Button Clicked") }}
+            >
+                <LockIcon fontSize="small" />
+            </Button>
+
         </Box>
     );
 }
