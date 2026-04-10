@@ -67,7 +67,7 @@ const ProgressBars: React.FC<ProgressBarsProps> = (props) => {
     }, [timeProgress, modules]);
 
     const getPercentage1 = (progress: number): number => {
-        return Math.round((progress + 1) * 100 / getTotalTime(modules));
+        return Math.round((progress + 1) * 100 / getTotalTime(modules)) + 100;
     }
 
     const getPercentage2 = (progress: number): number => {
