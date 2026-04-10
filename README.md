@@ -8,6 +8,8 @@ This app features full-page modules, which you can add and sort freely. See the 
 
 The app jumps automatically between modules and shows progressBars. The time spent on each module can be edited.
 
+Test2
+
 ## Available modules
 
  - Analog clock & digital time with seconds
