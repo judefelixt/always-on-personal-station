@@ -53,12 +53,12 @@ const ControlButtons: React.FC<ControlButtonsProps> = (props) => {
             <Button
                 style={{
                     backgroundColor: getButtonColor(settingsOpened),
-                    padding: theme.spacing(3),
-                    marginBottom: theme.spacing(3),
+                    padding: theme.spacing("3"),
+                    marginBottom: theme.spacing(1.5),
                 }}
                 onClick={() => { console.log("hello") }}
             >
-                <SettingsIcon fontSize="medium" />
+                <SettingsIcon fontSize="large" />
             </Button>
 
             <Button
@@ -83,6 +83,17 @@ const ControlButtons: React.FC<ControlButtonsProps> = (props) => {
                 onClick={() => toggleLockScroll()}
             >
                 <LockIcon fontSize="medium" />
+            </Button>
+
+
+            <Button
+                style={{
+                    backgroundColor: getButtonColor(lockScroll),
+                    padding: theme.spacing(2),
+                }}
+                onClick={() => { console.log("Lock Scroll Button Clicked") }}
+            >
+                <LockIcon fontSize="small" />
             </Button>
 
         </Box>
