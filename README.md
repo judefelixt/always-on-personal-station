@@ -34,6 +34,8 @@ This app works on all modern browsers, and on Internet Explorer 11. Yes, you can
 
 ##  Usage instructions
 
+test of rebase
+
 ### Use the official deployment
 
 Browse [aops.clementlize.com](https://aops.clementlize.com) with your device, and you can start using the app.
